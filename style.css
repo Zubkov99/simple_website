@@ -37,7 +37,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-a:hover {
+.header__menu a:hover {
   color: #5E81FE;
 }
 
@@ -68,6 +68,12 @@ a:hover {
 
 .preview__background img {
   width: 100%;
+}
+
+.preview__background--text {
+  position: relative;
+  bottom: 510px;
+  text-align: left;
 }
 
 .preview__background--text {
@@ -449,9 +455,7 @@ a:hover {
 }
 
 .blogBlock__widget--slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -526,12 +530,4 @@ a:hover {
   color: #A6B6DA;
   width: 211px;
 }
-
-/* .referenceBlock {
-    position: relative;
-    bottom: 100px;
-    height: 497px;
-    width: 100vw;
-    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
-} */
 /*# sourceMappingURL=style.css.map */
